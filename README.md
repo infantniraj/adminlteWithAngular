@@ -1,27 +1,37 @@
-# Adminlte
+# Files ready to create a new project using Adminlte in Angular9
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+Please Install node modules using npm install
 
-## Development server
+Steps to Follow to create this source file:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+sudo  npm install -g @angular/cli
 
-## Code scaffolding
+create a new app
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng new my-test-app
 
-## Build
+install admin lti 3
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+npm install admin-lte@^3.0 --save
 
-## Running unit tests
+Verify Package .json
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+open
+https://adminlte.io/themes/dev/AdminLTE/index.html
 
-## Running end-to-end tests
+choose a dashboard
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+update angular.json file add css and js file location from node module folder
 
-## Further help
+Index.html  add body class 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+App.Component.html Update the content 
+
+
+Replace the Image content
+
+stellaanitton1@4
+
+
+
